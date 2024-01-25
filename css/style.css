@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.d-block{
+  position: relative;
+  top: 96px;
+}
+.apple{
+  position: relative;
+  left: -5px;
+  top: -3px;
+  color: white;
+  height: 40px;
+  width: 22px;
+}
+.android{
+  position: relative;
+  left: -6px;
+  top: -0px;
+  color: white;
+  height: 40px;
+  width: 25px;
+}
+.btn{
+  background-color: white;
+  color: black;
+  border: whitesmoke;
+}
+.feature-icon{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+  background-color: white;
+}
+.dog{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+#testimonial{
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.flexing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleless{
+  padding-left: 200px;
+}
+
+.testi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  
+}
+
+.ptag{
+  font-weight: 700;
+  font-size: larger;
+}
+#ny{
+  font-size: 25px;
+}
+.price{
+  font-size: 40px ;
+}
+.companies{
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.buttons{
+  position: relative;
+  top: 30px;
+}
